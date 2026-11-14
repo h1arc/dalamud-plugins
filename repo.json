@@ -3,7 +3,7 @@
     "Author": "Ostinato",
     "Name": "Ostinato",
     "InternalName": "Ostinato",
-    "Punchline": "Rule-pack driven action replacement for SMN and SGE.",
+    "Punchline": "Single-button action combo replacement.",
     "Description": "Replaces the action the game asks about with the best next action from per-job rule packs compiled from a strict-JSON encyclopedia.",
     "Tags": [
       "combo",
@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.4",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.4/Ostinato.zip",
-    "TestingChangelog": "b4de172 Merge pull request #11 from h1arc/release/cleanup",
+    "TestingAssemblyVersion": "0.1.0.5",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.5/Ostinato.zip",
+    "TestingChangelog": "a5ff87b Merge pull request #12 from h1arc/whm/m79-m82",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1794599177
+    "LastUpdate": 1794678297
   }
 ]
