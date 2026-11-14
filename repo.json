@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.5",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.5/Ostinato.zip",
-    "TestingChangelog": "1. White Mage, first entry: game data, job entry, Healing Gauge, the single-target (Glare) and AoE (Holy) combos with seven settings, and Route targets for WHM heals and buffs.\n2. Route: new \"farthest\" target choice (the farthest party member still in range). WHM Rescue uses it.\n3. Ground-targeted actions (Asylum, Liturgy of the Bell) default to your hard target, else yourself. Known issue: in this build they only open the targeting circle; a fix is coming.\n\nMinor: the plugin description no longer names jobs; the WHM job button appears on every screen; WHM checks added to the in-game checklist.",
+    "TestingAssemblyVersion": "0.1.0.6",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.6/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #14: Ground placement on press + overlay reset buttons (M83\u2013M84)\n\n1. Ground-targeted heals (Asylum, Liturgy of the Bell) are placed the moment you press them, no targeting circle: on your hard target if it is a party member, otherwise on you.\n2. Config \u2192 Overlay now has \"Reset current job (<job>)\" and \"Reset all jobs\" in place of one button per job.\n\nMinor: test-build PR builds and fuller changelogs in the release pipeline.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1794678297
+    "LastUpdate": 1794696094
   }
 ]
