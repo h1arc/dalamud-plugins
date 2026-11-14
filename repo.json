@@ -15,7 +15,7 @@
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
     "TestingAssemblyVersion": "0.1.0.5",
     "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.5/Ostinato.zip",
-    "TestingChangelog": "a5ff87b Merge pull request #12 from h1arc/whm/m79-m82",
+    "TestingChangelog": "1. White Mage, first entry: game data, job entry, Healing Gauge, the single-target (Glare) and AoE (Holy) combos with seven settings, and Route targets for WHM heals and buffs.\n2. Route: new \"farthest\" target choice (the farthest party member still in range). WHM Rescue uses it.\n3. Ground-targeted actions (Asylum, Liturgy of the Bell) default to your hard target, else yourself. Known issue: in this build they only open the targeting circle; a fix is coming.\n\nMinor: the plugin description no longer names jobs; the WHM job button appears on every screen; WHM checks added to the in-game checklist.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
