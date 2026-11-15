@@ -1,10 +1,10 @@
 [
   {
-    "Author": "Ostinato",
+    "Author": "hiarc",
     "Name": "Ostinato",
     "InternalName": "Ostinato",
     "Punchline": "Single-button action combo replacement.",
-    "Description": "Replaces the action the game asks about with the best next action from per-job rule packs compiled from a strict-JSON encyclopedia.",
+    "Description": "Swaps the pressed action for the next step of your rotation, using per-job rules you can switch on and off.",
     "Tags": [
       "combo",
       "rotation"
@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.6",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.6/Ostinato.zip",
-    "TestingChangelog": "Test build for PR #14: Ground placement on press + overlay reset buttons (M83\u2013M84)\n\n1. Ground-targeted heals (Asylum, Liturgy of the Bell) are placed the moment you press them, no targeting circle: on your hard target if it is a party member, otherwise on you.\n2. Config \u2192 Overlay now has \"Reset current job (<job>)\" and \"Reset all jobs\" in place of one button per job.\n\nMinor: test-build PR builds and fuller changelogs in the release pipeline.",
+    "TestingAssemblyVersion": "0.1.0.7",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.7/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #14: Ground placement, Esuna priority, overlay resets, listing polish (M83\u2013M86)\n\n1. Ground-targeted heals (Asylum, Liturgy of the Bell) are placed the moment you press them, no targeting circle: on your hard target if it is a party member, otherwise on you.\n2. Esuna now cleanses tanks first, then healers, then DPS (only members with a debuff it can remove). New \"DPS\" target choice for any Route stack.\n3. Config \u2192 Overlay now has \"Reset current job (<job>)\" and \"Reset all jobs\" in place of one button per job.\n\nMinor: Rescue no longer shows a \"no default\" warning; cleanse cards are labelled \"cleansing stack\"; shorter plugin description, \"by hiarc\", one command per line in the help.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1794696094
+    "LastUpdate": 1794703174
   }
 ]
