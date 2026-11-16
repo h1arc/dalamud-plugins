@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.9",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.9/Ostinato.zip",
-    "TestingChangelog": "1. Ground-targeted heals (Asylum, Liturgy of the Bell) are placed the moment you press them, no targeting circle: on your hard target if it is a party member, otherwise on you.\n2. Esuna now cleanses tanks first, then healers, then DPS. New \"DPS\" target choice for any Route stack.\n3. Config \u2192 Overlay has \"Reset current job (<job>)\" and \"Reset all jobs\" in place of one button per job.\n4. WHM spends lilies on Afflatus Rapture on both buttons from level 76 (Afflatus Solace below).\n5. WHM always refreshes Dia/Aero while moving; the \"refresh DoT while moving\" knob is gone.\n6. Tiles put each modifier (weave, moving, \u2026) on its own line, and names wrap more naturally: \"Presence / of Mind\", while short names like \"Thin Air\" or \"Summon Egi\" stay on one line. The Timeline setting is now just \"Name wrap\".\n7. Multi-step actions show the step they lead to: SGE's Eukrasian Dyskrasia tile now has its own icon.\n8. Knob values are kept per job: setting Lucid Dreaming MP on WHM no longer changes SGE or SMN. Values saved by an older build are copied to every job that has the knob on first load.\n\nMinor: Rescue no longer shows a \"no default\" warning; cleanse cards are labelled \"cleansing stack\"; shorter plugin description, \"by hiarc\", one command per line in the help; below level 30 the Eukrasian Dosis tile uses its own icon.\n\nNotes for testers: if you saved a custom rule order for WHM's Holy button, press \"Reset current job (WHM)\" once so the new moving order applies. Going back to a build older than this one drops per-job knob values (they reset to defaults there).",
+    "TestingAssemblyVersion": "0.1.0.10",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.10/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #17: M92\u2013M95: moving hold, Route tab grouped by category, Undo / Reset to default\n\n1. The Route tab is now grouped by category: Buffs, Heals, Mitigation and Utility. It opens with every group collapsed, and each header shows how many of its actions are routed (\"all on\" or \"7 of 8 on\").\n2. Each action is one line: its icon, name, on/off switch and target order. Click a line to edit its targets; only one action is open at a time. \"Expand all\" / \"Collapse all\" sit next to the heading.\n3. The target editor has \"Undo\", which steps back through your changes to the open action, and \"Reset to default\", which restores the shipped order at once. Undo clears when you open another action or leave the tab.\n4. The moving flag now stays on for half a second after you stop. A quick left-right strafe no longer makes the rotation fall back to a cast for a moment.\n\nMinor: the tab's description is now one line, \"Where each action gets routed to\"; groups and lines can be opened in combat while edits stay locked; an inspector's Route button opens straight to its action; every Route entry in the encyclopedia names its category.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1794786435
+    "LastUpdate": 1794805229
   }
 ]
