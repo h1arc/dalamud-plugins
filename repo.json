@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.11",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.11/Ostinato.zip",
-    "TestingChangelog": "Test build for PR #17: M92\u2013M96: moving hold, Route tab grouped by category, Undo / Reset to default, Route polish\n\n1. The Route tab is now grouped by category: Buffs, Heals, Mitigation and Utility. It opens with every group collapsed, and each header shows how many of its actions are routed (\"all on\" or \"7 of 8 on\").\n2. Each action is one line, lined up in columns across every group: icon, name, kind, target order, then the on/off switch at the end. Hovering highlights the whole line; click it to edit its targets. Only one action is open at a time. \"Expand all\" / \"Collapse all\" (in gold) sit next to the heading.\n3. The target editor has \"Undo\", which steps back through your changes to the open action, and \"Reset to default\", which restores the shipped order at once. Undo clears when you open another action or leave the tab.\n4. The moving flag now stays on for half a second after you stop. A quick left-right strafe no longer makes the rotation fall back to a cast for a moment.\n\nMinor: group names are slightly larger; the open target editor no longer has a large gap at the top; the tab's description is now one line, \"Where each action gets routed to\"; groups and lines can be opened in combat while edits stay locked; an inspector's Route button opens straight to its action; every Route entry in the encyclopedia names its category.",
+    "TestingAssemblyVersion": "0.1.0.12",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.12/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #17: M92\u2013M97: moving hold, Route tab grouped by category, Undo / Reset to default, Route polish\n\n1. The Route tab is now grouped by category: Buffs, Heals, Mitigation and Utility. It opens with every group collapsed, and each header shows how many of its actions are routed (\"all on\" or \"7 of 8 on\").\n2. Each action is one line in fixed columns: icon, name, kind and target order line up down the whole tab, the same with Expand all or one group open. Hovering highlights the whole line; click it to open its targets. The on/off switch now sits at the top of the opened card (\"Route this action\"). \"Expand all\" / \"Collapse all\" (in gold) sit next to the heading.\n3. The target editor has \"Undo\", which steps back through your changes to the open action, and \"Reset to default\", which restores the shipped order at once. Undo clears when you open another action or leave the tab.\n4. The moving flag now stays on for half a second after you stop. A quick left-right strafe no longer makes the rotation fall back to a cast for a moment.\n\nMinor: group names are slightly larger; the open target editor no longer has a large gap at the top; the tab's description is now one line, \"Where each action gets routed to\"; groups and lines can be opened in combat while edits stay locked; an inspector's Route button opens straight to its action; every Route entry in the encyclopedia names its category.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1794935906
+    "LastUpdate": 1794941482
   }
 ]
