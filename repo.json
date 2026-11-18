@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.15",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.15/Ostinato.zip",
-    "TestingChangelog": "Test build for PR #18: M100: headless screenshots of the real UI\n\n1. No visible changes. The plugin's drawing code now lives in its own library (Ostinato.Ui.dll ships alongside the plugin) so it can be rendered outside the game for testing. Every tab should look and behave exactly as before; please report anything that doesn't.\n\nMinor: the on/off switch is now drawn by the plugin itself instead of Dalamud's helper, with the same look and click area.",
+    "TestingAssemblyVersion": "0.1.0.16",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.16/Ostinato.zip",
+    "TestingChangelog": "1. No visible changes. The plugin's drawing code now lives in its own library (Ostinato.Ui.dll ships alongside the plugin) so it can be rendered outside the game for testing. Every tab should look and behave exactly as before; please report anything that doesn't.\n\nMinor: the on/off switch is now drawn by the plugin itself instead of Dalamud's helper, with the same look and click area.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1794957231
+    "LastUpdate": 1794961280
   }
 ]
