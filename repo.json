@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.17",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.17/Ostinato.zip",
-    "TestingChangelog": "Test build for PR #19: M101: hook boundary, fault containment, config swap (cleanup S1)\n\n1. Safer start-up and shutdown. The plugin now hooks the game only once it is fully loaded, and a fault in one of its hooks switches that hook back to the game's normal behaviour once instead of erroring repeatedly; Status shows when that happened. Nothing should look or play differently.\n2. Fixed two action hooks that read the game's yes/no answer as a wider value than the game writes.\n\nMinor: a config save interrupted at the wrong moment can no longer leave you with defaults; shutdown finishes every cleanup step even if one fails.",
+    "TestingAssemblyVersion": "0.1.0.18",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.18/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #20: M102\u2013M107: telemetry sink, self-timing, reload-only states, config, release tooling (cleanup S2\u2013S4)\n\n1. Telemetry problems are now visible and recoverable. If telemetry stops after a disk error, Status says so, and your next capture request retries it once. Long pulls with deep telemetry on are split into several fight files instead of one unbounded file.\n2. Capture and fight files are about five times smaller. Always-on telemetry is now written to disk regularly, so a game crash loses at most a moment of it.\n3. With deep telemetry off, the plugin no longer times itself at all. The automatic \"over budget\" capture is gone; your own captures and drift captures are unchanged.\n4. Fixed combos dropping for a moment when your level changes in combat (level sync, level-up) while a pet or demi-summon is out.\n5. A config file that can't be read is now reported as a warning instead of a quiet note. A hand-edited setting value the plugin can't write back no longer stops it from loading.\n\nMinor: a failed compile caused by a disk error is retried on the next job select or zone change; release tooling and workflow updates.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1795137436
+    "LastUpdate": 1795162351
   }
 ]
