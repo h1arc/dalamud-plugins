@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.20",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.20/Ostinato.zip",
-    "TestingChangelog": "Test build for PR #22: M114\u2013M118: UI oracle as text, UI leftovers, kit gallery out of the DLL, jump fix, icon cache (cleanup S7)\n\n1. Clicking a \"used by\" chip or a Route button now opens the target screen scrolled to the top.\n2. Icons no longer risk drawing blank after you leave a screen for a moment and come back.\n3. The WHM tab label now has its own colour (white), like SMN and SGE.\n\nMinor: the debug-only `/ostinato kit` gallery is removed (Release builds are unaffected); a large internal cleanup of UI code with no visible change.",
+    "TestingAssemblyVersion": "0.1.0.21",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.21/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #23: M119\u2013M124 + M131: test rigs, dev tooling, convert stack out of the DLL, old config shapes and named stacks removed, GC-settled alloc gates (cleanup S8\u2013S9)\n\n1. Named stacks are removed (they have had no editor since an earlier release). An old config that still assigns one shows a single warning, and that action uses its own stack.\n2. A config from a very old release (0.1.0.7 or earlier) is no longer converted: settings start from defaults and the old file is kept beside it.\n3. When a config has to be reset, the backup copy is now named after the version it came from, e.g. `Ostinato.json.v2.bak`.\n\nMinor: about 1,500 lines of offline-only code (the capture converter) leave the plugin DLL; a large internal cleanup of tests and dev tooling.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1795188070
+    "LastUpdate": 1795207188
   }
 ]
