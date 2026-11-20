@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.18",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.18/Ostinato.zip",
-    "TestingChangelog": "Test build for PR #20: M102\u2013M107: telemetry sink, self-timing, reload-only states, config, release tooling (cleanup S2\u2013S4)\n\n1. Telemetry problems are now visible and recoverable. If telemetry stops after a disk error, Status says so, and your next capture request retries it once. Long pulls with deep telemetry on are split into several fight files instead of one unbounded file.\n2. Capture and fight files are about five times smaller. Always-on telemetry is now written to disk regularly, so a game crash loses at most a moment of it.\n3. With deep telemetry off, the plugin no longer times itself at all. The automatic \"over budget\" capture is gone; your own captures and drift captures are unchanged.\n4. Fixed combos dropping for a moment when your level changes in combat (level sync, level-up) while a pet or demi-summon is out.\n5. A config file that can't be read is now reported as a warning instead of a quiet note. A hand-edited setting value the plugin can't write back no longer stops it from loading.\n\nMinor: a failed compile caused by a disk error is retried on the next job select or zone change; release tooling and workflow updates.",
+    "TestingAssemblyVersion": "0.1.0.19",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.19/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #21: M108\u2013M113: composition tests, rules into Core, dead-code sweep, engine construction (cleanup S5\u2013S6)\n\n1. After reloading the plugin mid-combat while standing still, movement-only actions no longer flash up for the first half second.\n2. A capture taken right after a reload now records the zone you're in.\n3. Hostile labels are cleared when you change zone or log out, and the landed-action history is cleared when you change job or log in.\n4. Status now shows dropped telemetry frames if the telemetry thread ever falls behind (normally 0).\n\nMinor: the start-up probe lines are gone from the Dalamud log; a large internal cleanup of unused code with no behaviour change.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1795162351
+    "LastUpdate": 1795175765
   }
 ]
