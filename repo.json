@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.19",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.19/Ostinato.zip",
-    "TestingChangelog": "Test build for PR #21: M108\u2013M113: composition tests, rules into Core, dead-code sweep, engine construction (cleanup S5\u2013S6)\n\n1. After reloading the plugin mid-combat while standing still, movement-only actions no longer flash up for the first half second.\n2. A capture taken right after a reload now records the zone you're in.\n3. Hostile labels are cleared when you change zone or log out, and the landed-action history is cleared when you change job or log in.\n4. Status now shows dropped telemetry frames if the telemetry thread ever falls behind (normally 0).\n\nMinor: the start-up probe lines are gone from the Dalamud log; a large internal cleanup of unused code with no behaviour change.",
+    "TestingAssemblyVersion": "0.1.0.20",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.20/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #22: M114\u2013M118: UI oracle as text, UI leftovers, kit gallery out of the DLL, jump fix, icon cache (cleanup S7)\n\n1. Clicking a \"used by\" chip or a Route button now opens the target screen scrolled to the top.\n2. Icons no longer risk drawing blank after you leave a screen for a moment and come back.\n3. The WHM tab label now has its own colour (white), like SMN and SGE.\n\nMinor: the debug-only `/ostinato kit` gallery is removed (Release builds are unaffected); a large internal cleanup of UI code with no visible change.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1795175765
+    "LastUpdate": 1795188070
   }
 ]
