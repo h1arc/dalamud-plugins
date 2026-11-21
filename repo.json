@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.21",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.21/Ostinato.zip",
-    "TestingChangelog": "Test build for PR #23: M119\u2013M124 + M131: test rigs, dev tooling, convert stack out of the DLL, old config shapes and named stacks removed, GC-settled alloc gates (cleanup S8\u2013S9)\n\n1. Named stacks are removed (they have had no editor since an earlier release). An old config that still assigns one shows a single warning, and that action uses its own stack.\n2. A config from a very old release (0.1.0.7 or earlier) is no longer converted: settings start from defaults and the old file is kept beside it.\n3. When a config has to be reset, the backup copy is now named after the version it came from, e.g. `Ostinato.json.v2.bak`.\n\nMinor: about 1,500 lines of offline-only code (the capture converter) leave the plugin DLL; a large internal cleanup of tests and dev tooling.",
+    "TestingAssemblyVersion": "0.1.0.22",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.22/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #24: M125\u2013M128: helper reuse, compiler as null check + code-style guard, README as reference, one action sheet (cleanup S10, final)\n\n1. \"Has my Lucid Dreaming\" is no longer offered as a Route target on SMN and SGE; nothing used it.\n2. After updating you will see one \"encyclopedia changed\" row the first time the plugin loads. It does not come back.\n3. The plugin package is smaller: the per-job action sheets are now one shared file.\n\nMinor: internal cleanup only. The build now refuses null hand-offs and dead private code. Duplicate helpers are merged. The README is rewritten as a reference, with the history moved to docs/HISTORY.md.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1795207188
+    "LastUpdate": 1795219858
   }
 ]
