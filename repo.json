@@ -13,14 +13,14 @@
     "DalamudApiLevel": 15,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/h1arc/dalamud-plugins",
-    "TestingAssemblyVersion": "0.1.0.23",
-    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.23/Ostinato.zip",
-    "TestingChangelog": "1. \"Has my Lucid Dreaming\" is no longer offered as a Route target on SMN and SGE; nothing used it.\n2. After updating you will see one \"encyclopedia changed\" row the first time the plugin loads. It does not come back.\n3. The plugin package is smaller: the per-job action sheets are now one shared file.\n\nMinor: internal cleanup only. The build now refuses null hand-offs and dead private code. Duplicate helpers are merged. The README is rewritten as a reference, with the history moved to docs/HISTORY.md.",
+    "TestingAssemblyVersion": "0.1.0.24",
+    "DownloadLinkTesting": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.24/Ostinato.zip",
+    "TestingChangelog": "Test build for PR #25: Exception policy: EXCEPTIONS.md, sites 51 \u2192 44\n\n1. If saving your settings fails, Ostinato no longer retries on a timer. It tries again at your next settings change or when the plugin unloads.\n\nMinor: internal cleanup only. Every exception handler in the plugin is now listed and checked by a test, and seven are removed.",
     "AssemblyVersion": "0.1.0.1",
     "DownloadLinkInstall": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "DownloadLinkUpdate": "https://github.com/h1arc/dalamud-plugins/releases/download/ostinato-v0.1.0.1/Ostinato.zip",
     "IsTestingExclusive": true,
     "TestingDalamudApiLevel": 15,
-    "LastUpdate": 1795227956
+    "LastUpdate": 1795276929
   }
 ]
